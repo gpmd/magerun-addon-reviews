@@ -19,7 +19,7 @@ Here's the easiest:
         cd ~/.n98-magerun/modules/
         git clone https://github.com/gpmd/magerun-addon-reviews
 
-3. It should be installed.  To see that it was installed, check to see if one of the new commands is in there, like `diff:files`.
+3. It should be installed. To see that it was installed, check to see if `reviews:reaggregate` works.
 
         magerun reviews:reaggregate
 
