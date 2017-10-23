@@ -1,0 +1,28 @@
+{
+    "name": "gpmd/magerun-addon-reviews",
+    "type": "library",
+    "description": "N98 MageRun addon to reaggregate reviews",
+    "keywords": ["magerun"],
+    "homepage": "https://github.com/gpmd/magerun-addon-reviews",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "GPMD",
+            "email": "support@gpmd.co.uk",
+            "homepage": "http://www.gpmd.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "n98/magerun": "1.91.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "GPMD": "src/"
+        }
+    }
+}

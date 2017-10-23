@@ -1,0 +1,6 @@
+autoloaders:
+  GPMD: %module%/src
+
+commands:
+   customCommands:
+       - GPMD\Magento\Command\Review\ReaggregateCommand
